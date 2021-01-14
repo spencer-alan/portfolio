@@ -1,4 +1,5 @@
 import React from "react";
+import Pexels from "../images/pexels-negative-space-160107.jpg";
 
 function Projects() {
 	return (
@@ -22,8 +23,7 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage:
-										"url(images/pexels-negative-space-160107.jpg)",
+									backgroundImage: `url(${Pexels})`,
 								}}
 							>
 								<div className="desc">
@@ -36,6 +36,7 @@ function Projects() {
 											<span>
 												<a href="#">
 													<i className="icon-share3" />
+													View Project
 												</a>
 											</span>
 											{/* <span>
@@ -60,8 +61,7 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage:
-										"url(images/pexels-negative-space-160107.jpg)",
+									backgroundImage: `url(${Pexels})`,
 								}}
 							>
 								<div className="desc">
@@ -74,6 +74,7 @@ function Projects() {
 											<span>
 												<a href="#">
 													<i className="icon-share3" />
+													View Project
 												</a>
 											</span>
 											{/* <span>
@@ -98,8 +99,7 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage:
-										"url(images/pexels-negative-space-160107.jpg)",
+									backgroundImage: `url(${Pexels})`,
 								}}
 							>
 								<div className="desc">
@@ -112,6 +112,7 @@ function Projects() {
 											<span>
 												<a href="#">
 													<i className="icon-share3" />
+													View Project
 												</a>
 											</span>
 											{/* <span>
