@@ -1,5 +1,5 @@
 import React from "react";
-import Pexels from "../images/pexels-negative-space-160107.jpg";
+import Pexels from "../../images/pexels-negative-space-160107.jpg";
 
 function Projects() {
 	return (

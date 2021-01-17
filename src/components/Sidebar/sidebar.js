@@ -1,5 +1,6 @@
 import React from "react";
-import Profile from "../images/profile_pic1.jpg";
+import "./sidebarStyle.css";
+import Profile from "../../images/profile_pic1.jpg";
 
 function Sidebar() {
 	return (
