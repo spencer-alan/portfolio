@@ -15,13 +15,13 @@ function Sidebar() {
 				>
 					<i />
 				</nav>
-				<aside id="colorlib-aside" className="border js-fullheight">
+				<aside id="aside" className="border js-fullheight">
 					<div className="text-center">
 						<div
 							className="author-img"
 							style={{ backgroundImage: `url(${Profile})` }}
 						/>
-						<h1 id="colorlib-logo">
+						<h1 id="logo">
 							<a href="index.html">Spencer Smith</a>
 						</h1>
 						<span className="email">
@@ -38,7 +38,7 @@ function Sidebar() {
 							smith.spence13@gmail.com
 						</span>
 					</div>
-					<nav id="colorlib-main-menu" role="navigation" className="navbar">
+					<nav id="main-menu" role="navigation" className="navbar">
 						<div id="navbar" className="collapse">
 							<ul>
 								<li className="active">
@@ -69,7 +69,7 @@ function Sidebar() {
 							</ul>
 						</div>
 					</nav>
-					<nav id="colorlib-main-menu">
+					<nav id="main-menu">
 						<ul>
 							<li>
 								<a
@@ -127,20 +127,7 @@ function Sidebar() {
 							</li>
 						</ul>
 					</nav>
-					<div className="colorlib-footer">
-						<p>
-							<small>
-								Thanks{" "}
-								<a
-									href="https://colorlib.com"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Colorlib
-								</a>{" "}
-								for inspiration
-							</small>
-						</p>
+					<div className="footer">
 						<p>
 							<small>Something coming soon !!</small>
 						</p>
