@@ -1,25 +1,20 @@
 import React from "react";
+import "./projectStyle.css";
 import Pexels from "../../images/pexels-negative-space-160107.jpg";
 
 function Projects() {
 	return (
 		<div>
-			<section className="colorlib-work" data-section="projects">
-				<div className="colorlib-narrow-content">
+			<section className="work" data-section="projects">
+				<div className="narrow-content">
 					<div className="row">
-						<div
-							className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-							data-animate-effect="fadeInLeft"
-						>
+						<div className="col-md-6 col-md-offset-3 col-md-pull-3">
 							<span className="heading-meta">My Work</span>
-							<h2 className="colorlib-heading animate-box">Recent Projects</h2>
+							<h2 className="heading">Recent Projects</h2>
 						</div>
 					</div>
 					<div className="row">
-						<div
-							className="col-md-4 animate-box"
-							data-animate-effect="fadeInLeft"
-						>
+						<div className="col-md-4">
 							<div
 								className="project"
 								style={{
@@ -54,10 +49,7 @@ function Projects() {
 								</div>
 							</div>
 						</div>
-						<div
-							className="col-md-4 animate-box"
-							data-animate-effect="fadeInRight"
-						>
+						<div className="col-md-4">
 							<div
 								className="project"
 								style={{
@@ -92,10 +84,7 @@ function Projects() {
 								</div>
 							</div>
 						</div>
-						<div
-							className="col-md-4 animate-box"
-							data-animate-effect="fadeInTop"
-						>
+						<div className="col-md-4">
 							<div
 								className="project"
 								style={{
@@ -132,7 +121,7 @@ function Projects() {
 						</div>
 					</div>
 					{/* <div className="row">
-						<div className="col-md-12 animate-box">
+						<div className="col-md-12">
 							<p>
 								<a href="#" className="btn btn-primary btn-lg btn-load-more">
 									Load more <i className="icon-reload" />
