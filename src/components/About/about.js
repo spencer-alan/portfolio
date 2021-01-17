@@ -3,18 +3,18 @@ import React from "react";
 function About() {
 	return (
 		<div>
-			<section className="colorlib-about" data-section="about">
-				<div className="colorlib-narrow-content">
+			<section className="about" data-section="about">
+				<div className="narrow-content">
 					<div className="row">
 						<div className="col-md-12">
 							<div
-								className="row row-bottom-padded-sm animate-box"
-								data-animate-effect="fadeInLeft"
+								className="row row-bottom-padded-sm"
+								// data-animate-effect="fadeInLeft"
 							>
 								<div className="col-md-12">
 									<div className="about-desc">
 										<span className="heading-meta">About Me</span>
-										<h2 className="colorlib-heading">Who Am I?</h2>
+										<h2 className="heading">Who Am I?</h2>
 										<p>
 											I am a full stack web developer with public relations
 											education and a certificate in full stack development from
@@ -35,21 +35,19 @@ function About() {
 					</div>
 				</div>
 			</section>
-			<section className="colorlib-about">
-				<div className="colorlib-narrow-content">
+			<section className="about">
+				<div className="narrow-content">
 					<div className="row">
 						<div
-							className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box"
-							data-animate-effect="fadeInLeft"
+							className="col-md-6 col-md-offset-3 col-md-pull-3"
+							// data-animate-effect="fadeInLeft"
 						>
 							<span className="heading-meta">What I do?</span>
-							<h2 className="colorlib-heading">
-								Here are some of my expertise
-							</h2>
+							<h2 className="heading">Here are some of my expertise</h2>
 						</div>
 					</div>
 					<div className="row row-pt-md">
-						<div className="col-md-4 text-center animate-box">
+						<div className="col-md-4 text-center">
 							<div className="services color-1">
 								<span className="icon">
 									<i className="icon-bulb" />
@@ -63,7 +61,7 @@ function About() {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-4 text-center animate-box">
+						<div className="col-md-4 text-center">
 							<div className="services color-3">
 								<span className="icon">
 									<i className="icon-phone3" />
@@ -78,7 +76,7 @@ function About() {
 								</div>
 							</div>
 						</div>
-						<div className="col-md-4 text-center animate-box">
+						<div className="col-md-4 text-center">
 							<div className="services color-5">
 								<span className="icon">
 									<i className="icon-data" />
@@ -86,7 +84,7 @@ function About() {
 								<div className="desc">
 									<h3>New Languages</h3>
 									<p>
-										I am continually leraning new languages and am excited to
+										I am continually learning new languages and am excited to
 										try new things.
 									</p>
 								</div>
