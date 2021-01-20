@@ -151,3 +151,7 @@
 .services.color-6 .icon:after {
 	border-color: #4054b2 transparent transparent transparent;
 }
+
+.row-pt-md {
+	padding-top: 3em;
+}

@@ -15,7 +15,7 @@ function Sidebar() {
 				>
 					<i />
 				</nav>
-				<aside id="aside" className="border js-fullheight">
+				<aside id="aside" className="border fullheight">
 					<div className="text-center">
 						<div
 							className="author-img"

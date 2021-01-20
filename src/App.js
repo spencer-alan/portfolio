@@ -7,10 +7,10 @@ import Projects from "./components/Projects/projects.js";
 
 function App() {
 	return (
-		<div id="colorlib-page" className="App">
+		<div id="page" className="App">
 			<div className="container-wrap">
 				<Sidebar />
-				<div id="colorlib-main">
+				<div id="main">
 					<Introduction />
 					<About />
 					<Projects />
