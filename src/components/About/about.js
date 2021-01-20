@@ -1,9 +1,10 @@
 import React from "react";
+import "./aboutStyle.css";
 
 function About() {
 	return (
 		<div>
-			<section className="about" data-section="about">
+			<section id="about" className="about" data-section="about">
 				<div className="narrow-content">
 					<div className="row">
 						<div className="col-md-12">

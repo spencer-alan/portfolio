@@ -5,7 +5,7 @@ import Pexels from "../../images/pexels-negative-space-160107.jpg";
 function Projects() {
 	return (
 		<div>
-			<section className="work" data-section="projects">
+			<section id="projects" className="work" data-section="projects">
 				<div className="narrow-content">
 					<div className="row">
 						<div className="col-md-6 col-md-offset-3 col-md-pull-3">
