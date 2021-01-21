@@ -1,5 +1,11 @@
 import React from "react";
 import "./aboutStyle.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faLightbulb,
+	faHandshake,
+	faFileCode,
+} from "@fortawesome/free-regular-svg-icons";
 
 function About() {
 	return (
@@ -51,7 +57,7 @@ function About() {
 						<div className="col-md-4 text-center">
 							<div className="services color-1">
 								<span className="icon">
-									<i className="icon-bulb" />
+									<FontAwesomeIcon icon={faFileCode} size="3x" color="white" />
 								</span>
 								<div className="desc">
 									<h3>Web Development </h3>
@@ -65,7 +71,7 @@ function About() {
 						<div className="col-md-4 text-center">
 							<div className="services color-3">
 								<span className="icon">
-									<i className="icon-phone3" />
+									<FontAwesomeIcon icon={faHandshake} size="3x" color="white" />
 								</span>
 								<div className="desc">
 									<h3>Teamwork and Communication</h3>
@@ -80,7 +86,7 @@ function About() {
 						<div className="col-md-4 text-center">
 							<div className="services color-5">
 								<span className="icon">
-									<i className="icon-data" />
+									<FontAwesomeIcon icon={faLightbulb} size="3x" color="white" />
 								</span>
 								<div className="desc">
 									<h3>New Languages</h3>
