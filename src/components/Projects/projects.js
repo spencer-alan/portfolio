@@ -1,6 +1,8 @@
 import React from "react";
 import "./projectStyle.css";
 import Pexels from "../../images/pexels-negative-space-160107.jpg";
+import ShelfKeeper from "../../images/shelf-keeper-home.png";
+import RoadTrip from "../../images/roadtrip-planner-home.png";
 
 function Projects() {
 	return (
@@ -18,20 +20,21 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage: `url(${Pexels})`,
+									backgroundImage: `url(${ShelfKeeper})`,
 								}}
 							>
 								<div className="desc">
 									<div className="con">
 										<h3>
-											<a href="work.html">Shelf Keeper</a>
+											<a href="https://shelf-keeper.herokuapp.com/">
+												Shelf Keeper
+											</a>
 										</h3>
 										<span>Web Application</span>
 										<p className="icon">
 											<span>
-												<a href="#">
-													<i className="icon-share3" />
-													View Project
+												<a href="https://github.com/spencer-alan/project-3">
+													View Github
 												</a>
 											</span>
 											{/* <span>
@@ -53,20 +56,21 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage: `url(${Pexels})`,
+									backgroundImage: `url(${RoadTrip})`,
 								}}
 							>
 								<div className="desc">
 									<div className="con">
 										<h3>
-											<a href="work.html">Road Trip Planner</a>
+											<a href="https://calm-hamlet-11643.herokuapp.com/">
+												Road Trip Planner
+											</a>
 										</h3>
 										<span>Web Application</span>
 										<p className="icon">
 											<span>
-												<a href="#">
-													<i className="icon-share3" />
-													View Project
+												<a href="https://github.com/spencer-alan/project-2">
+													View Github
 												</a>
 											</span>
 											{/* <span>
@@ -99,10 +103,7 @@ function Projects() {
 										<span>Illustration</span>
 										<p className="icon">
 											<span>
-												<a href="#">
-													<i className="icon-share3" />
-													View Project
-												</a>
+												<a href="#">View Github</a>
 											</span>
 											{/* <span>
 												<a href="#">
