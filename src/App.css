@@ -94,3 +94,8 @@ html {
 .fullheight {
 	height: 100%;
 }
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
