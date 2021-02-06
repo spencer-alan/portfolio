@@ -1,8 +1,8 @@
 import React from "react";
 import "./projectStyle.css";
-import Pexels from "../../images/pexels-negative-space-160107.jpg";
 import ShelfKeeper from "../../images/shelf-keeper-home.png";
 import RoadTrip from "../../images/roadtrip-planner-home.png";
+import GoogleBook from "../../images/google-react-screenshot.png";
 
 function Projects() {
 	return (
@@ -26,14 +26,22 @@ function Projects() {
 								<div className="desc">
 									<div className="con">
 										<h3>
-											<a href="https://shelf-keeper.herokuapp.com/">
+											<a
+												href="https://shelf-keeper.herokuapp.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												Shelf Keeper
 											</a>
 										</h3>
 										<span>Web Application</span>
 										<p className="icon">
 											<span>
-												<a href="https://github.com/spencer-alan/project-3">
+												<a
+													href="https://github.com/spencer-alan/project-3"
+													target="_blank"
+													rel="noopener noreferrer"
+												>
 													View Github
 												</a>
 											</span>
@@ -62,14 +70,22 @@ function Projects() {
 								<div className="desc">
 									<div className="con">
 										<h3>
-											<a href="https://calm-hamlet-11643.herokuapp.com/">
+											<a
+												href="https://calm-hamlet-11643.herokuapp.com/"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
 												Road Trip Planner
 											</a>
 										</h3>
 										<span>Web Application</span>
 										<p className="icon">
 											<span>
-												<a href="https://github.com/spencer-alan/project-2">
+												<a
+													href="https://github.com/spencer-alan/project-2"
+													target="_blank"
+													rel="noopener noreferrer"
+												>
 													View Github
 												</a>
 											</span>
@@ -92,18 +108,30 @@ function Projects() {
 							<div
 								className="project"
 								style={{
-									backgroundImage: `url(${Pexels})`,
+									backgroundImage: `url(${GoogleBook})`,
 								}}
 							>
 								<div className="desc">
 									<div className="con">
 										<h3>
-											<a href="work.html">Google Book Search</a>
+											<a
+												href="https://github.com/spencer-alan/google-books-search"
+												target="_blank"
+												rel="noopener noreferrer"
+											>
+												Google Book Search
+											</a>
 										</h3>
 										<span>Illustration</span>
 										<p className="icon">
 											<span>
-												<a href="#">View Github</a>
+												<a
+													href="https://react-books-googleapi.herokuapp.com/"
+													target="_blank"
+													rel="noopener noreferrer"
+												>
+													View Github
+												</a>
 											</span>
 											{/* <span>
 												<a href="#">
