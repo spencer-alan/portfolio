@@ -2,6 +2,7 @@ import React from "react";
 import "./introStyle.css";
 import Carousel from "react-bootstrap/Carousel";
 import Profile from "../../images/portfolio-pic-lake1.jpg";
+import Resume from "./staticResume.pdf";
 
 function Introduction(props) {
 	return (
@@ -17,7 +18,7 @@ function Introduction(props) {
 							<p>
 								<a
 									className="btn btn-primary btn-learn"
-									href="https://docs.google.com/document/d/1qY_GJljkE0_EqfIFMCPQ6QKog0C8BlxYv3BVVnpDvOE/edit?usp=sharing"
+									href={Resume}
 									target="_blank"
 									rel="noopener noreferrer"
 								>
