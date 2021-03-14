@@ -35,6 +35,13 @@ function Projects() {
 											</a>
 										</h3>
 										<span>Web Application</span>
+										<span classname="projectDesc">
+											This is a React item management application for
+											businesses. It uses a jsonwebtoken to authenticate users
+											for secure access to the site, and uses MongoDB as the
+											information storage, Express for the server, and Node.js
+											as the architecture.
+										</span>
 										<p className="icon">
 											<span>
 												<a
@@ -79,6 +86,13 @@ function Projects() {
 											</a>
 										</h3>
 										<span>Web Application</span>
+										<span classname="projectDesc">
+											This is a Javascript based web application that allows
+											users to make notes for places they have travelled to. It
+											uses MongoDB to keep track of the notes made by users and
+											uses REST API with the full CRUD operations for note
+											taking.
+										</span>
 										<p className="icon">
 											<span>
 												<a
