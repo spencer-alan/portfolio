@@ -129,18 +129,24 @@ function Projects() {
 									<div className="con">
 										<h3>
 											<a
-												href="https://github.com/spencer-alan/google-books-search"
+												href="https://react-books-googleapi.herokuapp.com/"
 												target="_blank"
 												rel="noopener noreferrer"
 											>
 												Google Book Search
 											</a>
 										</h3>
-										<span>Illustration</span>
+										<span>Web Application</span>
+										<span classname="projectDesc">
+											This is a serch tool that is running on the MERN stack.
+											Users can type in what book they would like to search for
+											and get results from the Google Books API. They can then
+											save books to a list to refer back to later.
+										</span>
 										<p className="icon">
 											<span>
 												<a
-													href="https://react-books-googleapi.herokuapp.com/"
+													href="https://github.com/spencer-alan/google-books-search"
 													target="_blank"
 													rel="noopener noreferrer"
 												>
